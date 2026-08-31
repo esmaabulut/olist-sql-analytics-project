@@ -26,3 +26,6 @@ yapılmış bir veri analizi çalışmasıdır.
 
 ## Kullanılan Araç
 SQL Server (T-SQL)
+
+## Kullanılan Veri Seti
+Kaggle: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
