@@ -1,1 +1,0 @@
-# olist-sql-analytics-project
