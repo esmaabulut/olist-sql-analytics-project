@@ -1,17 +1,17 @@
 -- ===================================================
 -- Dimension Exploration
--- Amaç: Kategorik kolonlardaki farklı (distinct) değerleri keşfetmek
+-- Purpose: Explore distinct values in categorical columns
 -- ===================================================
 
--- Müşterilerin şehir ve eyalet bilgileri
+-- Customers' city and state information
 SELECT DISTINCT customer_city, customer_state
 FROM dbo.olist_customers_dataset
 ORDER BY 1, 2;
 
--- Ürün kategorileri
+-- Product categories
 SELECT DISTINCT product_category_name
 FROM dbo.olist_products_dataset;
 
--- Sipariş durumları (delivered, canceled, vs.)
-SELECT DISTINCT order_status 
+-- Order statuses (delivered, canceled, etc.)
+SELECT DISTINCT order_status
 FROM dbo.olist_orders_dataset;
