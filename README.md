@@ -129,6 +129,6 @@ Full code for every script lives in `/sql/`.
 
 ## 👤 Author
 
-Esma Bulut— 3rd-year Data Science and Analytics student, working toward a career in Data Science.
+Esma Bulut — 3rd-year Data Science and Analytics student, working toward a career in Data Science.
 
 [LinkedIn](https://www.linkedin.com/in/esma-bulut-0a3a05408/) 
