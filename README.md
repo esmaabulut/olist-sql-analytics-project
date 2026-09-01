@@ -103,10 +103,6 @@ FROM Aggregation;
 
 Full code for every script lives in `/sql/`.
 
-## ⚠️ Data Quality Note
-
-While validating the customer segmentation results, some `TotalSales` values appeared implausibly high relative to `TotalOrders` (e.g. a single order totaling over 1,000,000 BRL, where a typical order in this dataset is in the low hundreds). Verified that neither `olist_order_items_dataset` nor `olist_orders_dataset` contain duplicate keys, and that join fan-out is not the cause — investigation into the raw `price` values is ongoing. Documented transparently, since sanity-checking aggregation results against raw data is a core part of any analytics workflow.
-
 ## 🚀 How to Reproduce
 
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
@@ -136,4 +132,4 @@ While validating the customer segmentation results, some `TotalSales` values app
 
 [Your Name] — 3rd-year Data Science and Analytics student, working toward a career in Data Science.
 
-[LinkedIn] · [GitHub]
+[LinkedIn](https://www.linkedin.com/in/esma-bulut-0a3a05408/) 
