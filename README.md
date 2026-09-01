@@ -113,7 +113,6 @@ Full code for every script lives in `/sql/`.
 ```
 📁 olist-sql-analytics
 ├── 📁 sql/
-│   ├── 00_database_setup.sql
 │   ├── 01_dimension_exploration.sql
 │   ├── 02_measures.sql
 │   ├── 03_magnitude_analysis.sql
