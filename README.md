@@ -24,7 +24,6 @@ The [Olist dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 | `olist_customers_dataset` | Customer identity and location |
 | `olist_products_dataset` | Product catalog and physical attributes |
 
-**Note on customer identity:** the dataset provides two IDs per customer — `customer_id` (order-level, changes per order) and `customer_unique_id` (person-level, stable across orders). All customer-level aggregations use `customer_unique_id` to avoid double-counting the same person as multiple customers.
 
 ## 🛠️ Tools
 
